@@ -12,7 +12,7 @@
 namespace ToneG.Audio
 {
     /// <summary>
-    /// Abstract audio generator class.
+    /// Abstract audio generator class. Test
     /// Produces 16-bit PCM samples for playback, decoupled from signal logic.
     /// </summary>
     public abstract class AGenerator
