@@ -1,3 +1,20 @@
+// File: Program.cs
+// The main entry point for the application. Handles initialization, configuration,
+// and execution of the core logic. This class is typically responsible for invoking
+// services, managing dependencies, and coordinating application startup in a .NET
+// console or WinForm environment.
+// --------------------------------------------------------------------------------
+// Author:     Patrik Eigenmann
+// eMail:      p.eigenmann72@gmail.com
+// GitHub:     https://github.com/PatrikEigenmann72/HelloWorld
+// --------------------------------------------------------------------------------
+// Change Log:
+// Sun 2025-07-27 File created.                                                 Version: 00.01
+// Sun 2025-08-10 Samael.HuginAndMunin.Debug.cs included into the Project.      Version: 00.02
+// Sun 2025-08-10 Samael.HuginAndMunin.Log.cs included into the Project.        Version: 00.03
+// Sun 2025-08-10 Samael.HuginAndMunin.Config.cs includen into the Project.     Version: 00.04
+// --------------------------------------------------------------------------------
+using SHM = Samael.HuginAndMunin;
 
 static class Program
 {
@@ -7,6 +24,10 @@ static class Program
     [STAThread]
     static void Main()
     {
+        // Initialize Samael Components
+        SHM.Debug.Bitmask = SHM.DebugLevel.All;
+        SHM.Log.Bitmask = SHM.LogLevel.All;
+
         // To customize application configuration such as set high DPI settings or default font,
         // see https://aka.ms/applicationconfiguration.
         ApplicationConfiguration.Initialize();
