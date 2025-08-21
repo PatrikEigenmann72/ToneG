@@ -12,7 +12,8 @@
 // Sun 2025-07-27 File created.                                                 Version: 00.01
 // Sun 2025-08-10 Samael.HuginAndMunin.Debug.cs included into the Project.      Version: 00.02
 // Sun 2025-08-10 Samael.HuginAndMunin.Log.cs included into the Project.        Version: 00.03
-// Sun 2025-08-10 Samael.HuginAndMunin.Config.cs includen into the Project.     Version: 00.04
+// Sun 2025-08-10 Samael.HuginAndMunin.Config.cs included into the Project.     Version: 00.04
+// Thu 2025-08-21 Reorganized project structure and namespaces.                 Version: 00.05
 // --------------------------------------------------------------------------------
 using SHM = Samael.HuginAndMunin;
 
