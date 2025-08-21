@@ -14,19 +14,26 @@ The folders bin/ and obj/ with their artifacts *.jar, *.exe, *.dll, *.so, etc wi
 Tone3/  
 ├── bin/
 ├── obj/  
-├── .gitignore                       ← Contains the folders and files that will not be tracked.
-├── AGenerator.cs                    ← Apstract Class as Prototyp for other Audio Generators.
-├── AudioPlayer.cs                   ← The Player that makes the sonic generator audible.
-├── LICENSE                          ← GNU General Public License
-├── MainForm.cs                      ← MainForm logic and event handling.
-├── MainForm.Designer.cs             ← MainForm GUI logic.
-├── PinkNoiseGenerator.cs            ← An Audio Generator for Pink Noise.
-├── Program.cs                       ← The Programs entry point.
-├── Samael.HuginAndMunin.Config.cs   ← The Config class from the Samael.HuginAndMunin library.
-├── Samael.HuginAndMunin.Debug.cs    ← The Debug class from the Samael.HuginAndMunin library.
-├── Samael.HuginAndMunin.Log.cs      ← The Log class from the Samael.HuginAndMunin library.
-├── SineWaveGenerator.cs             ← An Audio Generator for a Sine Wave.
-└── README.md                        ← Project mission, usage, build instructions
+├── .gitignore                                  ← Contains the folders and files that will not be tracked.
+├── LICENSE                                     ← GNU General Public License
+├── Program.cs                                  ← The Programs entry point.
+├── README.md                                   ← Project mission, usage, build instructions
+├── Samael.HuginAndMunin.Config.cs              ← The Config class from the Samael.HuginAndMunin library.
+├── Samael.HuginAndMunin.Debug.cs               ← The Debug class from the Samael.HuginAndMunin library.
+├── Samael.HuginAndMunin.Log.cs                 ← The Log class from the Samael.HuginAndMunin library.
+├── ToneG.Audio.AGenerator.cs                   ← Apstract Class as Prototyp for other Audio Generators.
+├── ToneG.Audio.AudioPlayer.cs                  ← The Player that makes the sonic generator audible.
+├── ToneG.Audio.PinkNoiseGenerator.cs           ← An Audio Generator for Pink Noise.
+├── ToneG.Audio.SineWaveGenerator.cs            ← An Audio Generator for a Sine Wave.
+├── ToneG.csproj                                ← The Project file.
+├── ToneG.csproj.user                           ← The Project user file.
+├── ToneG.Gui.MainForm.cs                       ← MainForm logic and event handling.
+└── ToneG.Gui.MainForm.Designer.cs              ← MainForm GUI Designer logic.
+
+
+
+
+
 ```
 
 ## Author
